@@ -10,12 +10,15 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.2
+  hydrated_bloc: ^9.1.0
+  json_annotation: ^4.8.0
+  path_provider: ^2.0.12
 
 dev_dependencies:
-  equatable: ^2.0.5
-  flutter_bloc: ^8.1.2
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
