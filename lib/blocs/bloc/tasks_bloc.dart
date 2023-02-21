@@ -5,7 +5,7 @@ import 'package:hydrated_bloc/hydrated_bloc.dart';
 part 'tasks_event.dart';
 part 'tasks_state.dart';
 
-class TasksBloc extends HydratedBloc<TasksEvent, TasksState> {
+class TasksBloc extends Bloc<TasksEvent, TasksState> {
   TasksBloc() : super(const TasksState()) {
     on<AddTask>(_onAddTask);
     on<UpdateTask>(_onUpdateTask);
